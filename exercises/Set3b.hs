@@ -27,7 +27,6 @@ module Set3b where
 
 import Mooc.LimitedPrelude
 import Mooc.Todo
-
 ------------------------------------------------------------------------------
 -- Ex 1: given numbers start, count and end, build a list that starts
 -- with count copies of start and ends with end.
@@ -187,3 +186,4 @@ map2 f as bs = todo
 
 maybeMap :: (a -> Maybe b) -> [a] -> [b]
 maybeMap f xs = todo
+
